@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-number-verify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verify phone numbers on WhatsApp using Wassenger API",
   "main": "lib/index.js",
   "type": "module",
@@ -12,6 +12,10 @@
     "lint": "standard --fix",
     "verify": "node ./bin/cli.js",
     "start": "node ./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wassengerhq/whatsapp-number-verify"
   },
   "keywords": [
     "whatsapp",
@@ -25,7 +29,7 @@
     "whatsapp api",
     "whatsapp business"
   ],
-  "author": "",
+  "author": "Wassenger",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.2",
