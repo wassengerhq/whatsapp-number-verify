@@ -26,52 +26,52 @@ Provides both programatic API for Node.js / Deno / Bun and command-line interfac
 ### Global Installation (for CLI usage)
 
 ```bash
-npm install -g whatsapp-verify
+npm install -g whatsapp-number-verify
 ```
 
 Or using `yarn`:
 
 ```bash
-yarn global add whatsapp-verify
+yarn global add whatsapp-number-verify
 ```
 
 ### Local Installation (for programmatic usage)
 
 ```bash
-npm install whatsapp-verify --save
+npm install whatsapp-number-verify --save
 ```
 
 ## Usage
 
 ### CLI Usage
 
-The `whatsapp-verify` command-line tool requires a Wassenger API token, which can be provided via the `--token` option or the `WASSENGER_API_TOKEN` environment variable.
+The `whatsapp-number-verify` command-line tool requires a Wassenger API token, which can be provided via the `--token` option or the `WASSENGER_API_TOKEN` environment variable.
 
 ```bash
 # Verify a single phone number
-whatsapp-verify +1234567890
+whatsapp-number-verify +1234567890
 
 # Verify multiple phone numbers
-whatsapp-verify +1234567890 +14155552671
+whatsapp-number-verify +1234567890 +14155552671
 
 # Verify phone numbers from a JSON file
-whatsapp-verify --file numbers.json
+whatsapp-number-verify --file numbers.json
 
 # Verify phone numbers from a CSV file
-whatsapp-verify --file numbers.csv
+whatsapp-number-verify --file numbers.csv
 
 # Output results as JSON
-whatsapp-verify +1234567890 --json
+whatsapp-number-verify +1234567890 --json
 
 # Save results to a file
-whatsapp-verify +1234567890 --output results.json
+whatsapp-number-verify +1234567890 --output results.json
 ```
 
 ### Programmatic Usage
 
 ```javascript
 // ESM imports
-import { verifyPhoneNumber, verifyPhoneNumbers } from 'whatsapp-verify'
+import { verifyPhoneNumber, verifyPhoneNumbers } from 'whatsapp-number-verify'
 
 // Verify a single phone number
 async function checkSingleNumber () {
