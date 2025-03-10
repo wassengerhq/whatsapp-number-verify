@@ -1,0 +1,22 @@
+[
+  {
+    "phone": "+1234567890",
+    "name": "John Doe",
+    "country": "US"
+  },
+  {
+    "phone": "+447362053576",
+    "name": "Jane Smith",
+    "country": "UK"
+  },
+  {
+    "phoneNumber": "+34600000000",
+    "name": "Carlos Rodriguez",
+    "country": "Spain"
+  },
+  {
+    "phone_number": "+14155552671",
+    "name": "Rachel Green",
+    "country": "US"
+  }
+]
